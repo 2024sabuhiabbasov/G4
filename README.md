@@ -1,5 +1,7 @@
 # G4 Research Project: Biodiversity at ISAK
 
+<img src="https://user-images.githubusercontent.com/111758436/232663487-86021712-1790-4a13-953d-adb83763d2a0.png" style="width:100%">
+
 This repository contains the code and data for our G4 research project, which explores the diversity of soil type and plant life in the ISAK campus. The website is live at https://sabuhiabbasov.tech/G4/.
 
 ## Project Overview
