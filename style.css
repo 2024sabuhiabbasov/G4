@@ -121,3 +121,43 @@ hr {
     height: auto;
     object-fit: cover;
 }
+
+.image-row-1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.image-row-1 figure {
+  margin-right: 5px;
+}
+
+.image-row-1 figure:last-child {
+  margin-right: 0;
+}
+
+.image-row-1 img {
+    height: max-content;
+    width: auto;
+    object-fit: cover;
+}
+
+.image-row-2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.image-row-2 figure {
+  margin-right: 5px;
+}
+
+.image-row-2 figure:last-child {
+  margin-right: 0;
+}
+
+.image-row-2 img {
+    width: max-content;
+    height: auto;
+    object-fit: cover;
+}
