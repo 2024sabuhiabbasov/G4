@@ -59,7 +59,7 @@ section p{
 }
 
 .image-flex img {
-    width: 30%;
+    width: 26%;
     height: auto;
     margin-bottom: 10px;
 }
@@ -77,7 +77,7 @@ figcaption {
 }
 
 figure img {
-    max-width: 60%;
+    max-width: 50%;
 }
 
 hr {
@@ -86,4 +86,38 @@ hr {
   background-color: black;
   width: 50%;
   margin: 50px auto;
+}
+
+.image-flex-analysis {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-flex-analysis img {
+    width: 26%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.image-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.image-row figure {
+  margin-right: 10px;
+}
+
+.image-row figure:last-child {
+  margin-right: 0;
+}
+
+.image-row img {
+    width: 700px;
+    height: auto;
+    object-fit: cover;
 }
